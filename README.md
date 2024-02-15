@@ -59,7 +59,8 @@ change the toast message to "I GOT IT" in the `MainActivity` to "I GOT IT"
 
 
 ## 4- Extracting the Code 
- convert dex files to jar files using the dex2jar tool. Download the dex2jar tool :
+ convert dex files to jar files using the dex2jar tool. JD-GUI can be used to decompile the standard java .class files, which usually be packaged in a jar file, into the readable source code. 
+ Download the dex2jar tool :
  
  On Mac or Linux you might have to give the script the permission to be executed.
  ```bash
