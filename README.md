@@ -19,10 +19,17 @@ to decompile the HelloWorld.apk use apktool run :
 ```bash
 apktool d /Users/waadalkatheri/Desktop/HelloWorld.apk
 ```
+
+
  <img src="asset/deprecate_file.png" height=450 width=550/> 
+ 
 
 Running the following command decompiles the resources and the XML files of the APK to human-readable form and the Java, and Kotlin code to smali files.
+
+
+
  <img src="asset/HelloWorld_deprecated.png" height=450 width=550/> 
+ 
 
 # 2- Analyze the decompiled code
 
