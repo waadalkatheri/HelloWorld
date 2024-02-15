@@ -1,11 +1,11 @@
 # Reverse Engineering Android Application
 
-Reverse engineering an Android application typically involves analyzing the compiled code of the app to understand its functionality, identify any vulnerabilities, or modify it for a specific purpose.
+Reverse engineering an Android application typically involves analyzing the compiled code of the app to understand its functionality, identify any vulnerabilities, or modify it for a specific purpose. To reverse engineer an Android app, you need some tools that can help you extract, decode, and modify the app's files.
 # 1- Decompile the APK
 
 ## Installation Apktool
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Download and install the latest version of apktool from its website [apktool]([https://pip.pypa.io/en/stable/](https://ibotpeaches.github.io/Apktool/)) to install foobar.
 
 ```bash
 brew install apktool
