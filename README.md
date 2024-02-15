@@ -3,17 +3,16 @@
 Reverse engineering an Android application typically involves analyzing the compiled code of the app to understand its functionality, identify any vulnerabilities, or modify it for a specific purpose. To reverse engineer an Android app, you need some tools that can help you extract, decode, and modify the app's files.
 # 1- Decompile the APK
 
-## Installation Apktool
+## Installation Apktool :
 
 
 ```bash
 brew install apktool
 ```
-### Screen shote 
  <img src="asset/install_apktool.png" height=450 width=550/> 
 
 
-to decompile the HelloWorld.apk use apktool run :
+Use the following command to decompile HelloWorld.apk  :
 
 ```bash
 apktool d /Users/waadalkatheri/Desktop/HelloWorld.apk
