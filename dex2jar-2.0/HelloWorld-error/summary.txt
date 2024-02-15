@@ -1,0 +1,29 @@
+There are 18 methods fail to translate.
+2024-02-13 09:54:31 UTC
+version: [dex-reader-2.0, dex-reader-api-2.0, dex-ir-2.0, d2j-smali-2.0, d2j-base-cmd-2.0, dex-tools-2.0, dex-translator-2.0]
+cmdline: [-f, -o, output_jar.jar, HelloWorld.apk]
+env:
+java.specification.version: 18
+java.class.path: .:./lib/antlr-runtime-3.5.jar:./lib/asm-debug-all-4.1.jar:./lib/d2j-base-cmd-2.0.jar:./lib/d2j-jasmin-2.0.jar:./lib/d2j-smali-2.0.jar:./lib/dex-ir-2.0.jar:./lib/dex-reader-2.0.jar:./lib/dex-reader-api-2.0.jar:./lib/dex-tools-2.0.jar:./lib/dex-translator-2.0.jar:./lib/dex-writer-2.0.jar:./lib/dx-1.7.jar
+java.vm.vendor: Amazon.com Inc.
+java.vendor.url: https://aws.amazon.com/corretto/
+java.vm.specification.version: 18
+java.specification.vendor: Oracle Corporation
+java.version.date: 2022-07-19
+java.home: /Users/waadalkatheri/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home
+java.vm.compressedOopsMode: Zero based
+java.vm.specification.vendor: Oracle Corporation
+java.specification.name: Java Platform API Specification
+java.runtime.version: 18.0.2+9-FR
+java.runtime.name: OpenJDK Runtime Environment
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vendor.version: Corretto-18.0.2.9.1
+java.vendor.url.bug: https://github.com/corretto/corretto-18/issues/
+java.io.tmpdir: /var/folders/40/sf6sk2mj0qd9lwd381qqmbd40000gn/T/
+java.version: 18.0.2
+java.vm.specification.name: Java Virtual Machine Specification
+java.library.path: /Users/waadalkatheri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.vm.info: mixed mode, sharing
+java.vendor: Amazon.com Inc.
+java.vm.version: 18.0.2+9-FR
+java.class.version: 62.0
