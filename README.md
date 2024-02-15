@@ -73,7 +73,7 @@ Run this command to convert .APK to .RAR:
 ./d2j-dex2jar.sh -f -o output_jar.jar HelloWorld.apk
 ```
 
- <img src="asset/file-jar" height=450 width=550/> 
+ <img src="asset/file-jar.png" height=450 width=550/> 
 
  Once the APK file is converted to a JAR file, you can use JD-GUI to decompile and analyze the Java code. 
 
@@ -83,3 +83,7 @@ brew install --cask jd-gui
 ```
 
  <img src="asset/represent _code.png" height=450 width=550/> 
+
+
+ ##Summary:
+The guide provides a detailed walkthrough for reverse engineering an Android app, from decompiling the APK to analyzing and modifying its code. It emphasizes the importance of understanding the application's structure, identifying entry points, and modifying its behavior. The document serves as a practical resource for developers or anyone interested in Android app internals.
