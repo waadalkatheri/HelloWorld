@@ -73,9 +73,13 @@ Run this command to convert .APK to .RAR:
 ./d2j-dex2jar.sh -f -o output_jar.jar HelloWorld.apk
 ```
 
+ <img src="asset/file-jar" height=450 width=550/> 
+
+ Once the APK file is converted to a JAR file, you can use JD-GUI to decompile and analyze the Java code. 
+
+ ```bash
+ 
 brew install --cask jd-gui
-
-Open the JAR file in JADX: Once the APK file is converted to a JAR file, you can use JADX to decompile and analyze the Java code. To open the JAR file in JADX, open a terminal or command prompt and navigate to the directory where the JAR file is located. Then, type the following command:
-
+```
 
  <img src="asset/represent _code.png" height=450 width=550/> 
