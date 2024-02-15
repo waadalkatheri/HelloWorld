@@ -11,7 +11,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 brew install apktool
 ```
 ### Screen shote 
- <img src="assets/install_apktool.png" height=450 width=450/> 
+ <img src="asset/install_apktool.png" height=450 width=450/> 
 
 
 to decompile the HelloWorld.apk use apktool run :
