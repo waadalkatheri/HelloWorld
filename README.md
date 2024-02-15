@@ -5,7 +5,6 @@ Reverse engineering an Android application typically involves analyzing the comp
 
 ## Installation Apktool
 
-Download and install the latest version of apktool from its website [apktool]([https://pip.pypa.io/en/stable/](https://ibotpeaches.github.io/Apktool/) to install foobar.
 
 ```bash
 brew install apktool
