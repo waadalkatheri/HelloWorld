@@ -4,7 +4,7 @@ Reverse engineering an Android application typically involves analyzing the comp
 
 
 - we need :
- -apktool — tool for reverse engineering Android apk files. In this case we are using to extract files from apk and rebuild.
+ - apktool — tool for reverse engineering Android apk files. In this case we are using to extract files from apk and rebuild.
  - JD-GUI — To view java code
  - dex2jar — Converts Android dex files to class/jar files.
 # 1- Decompile the APK
