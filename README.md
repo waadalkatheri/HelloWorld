@@ -49,7 +49,6 @@ This snippet of code is from an Android application written in Smali, which is a
 
  <img src="asset/message_helloWorld.png" height=450 width=550/> 
 
-### Screen shote 
  
 ## 3- Reverse engineer the code
 
