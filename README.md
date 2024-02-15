@@ -81,9 +81,9 @@ Run this command to convert .APK to .RAR:
  
 brew install --cask jd-gui
 ```
-
+after running the jar file we can represent  JAVA code and analyze it.
  <img src="asset/represent _code.png" height=450 width=550/> 
 
 
- ##Summary:
+ ## Summary:
 The guide provides a detailed walkthrough for reverse engineering an Android app, from decompiling the APK to analyzing and modifying its code. It emphasizes the importance of understanding the application's structure, identifying entry points, and modifying its behavior. The document serves as a practical resource for developers or anyone interested in Android app internals.
