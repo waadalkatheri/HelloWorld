@@ -19,7 +19,10 @@ to decompile the HelloWorld.apk use apktool run :
 ```bash
 apktool d /Users/waadalkatheri/Desktop/HelloWorld.apk
 ```
+ <img src="asset/deprecate_file.png" height=450 width=550/> 
+
 Running the following command decompiles the resources and the XML files of the APK to human-readable form and the Java, and Kotlin code to smali files.
+ <img src="asset/HelloWorld_deprecated.png" height=450 width=550/> 
 
 # 2- Analyze the decompiled code
 
@@ -28,14 +31,20 @@ Once the APK file is decompiled, the code can be analyzed to understand how the 
 The first activity that is called when the application is launched is
 ```bash com.dns.helloworld1.MainActivity  ``` This is specified within the  ` <activity> `  tag that includes a `<intent-filter>` with the action `android.intent.action.MAIN` and the category `android.intent.category.LAUNCHER.` This configuration signifies that MainActivity is the entry point of the application.
 
+ <img src="asset/mainfest_file.png" height=450 width=550/> 
 
-This snippet of code is from an Android application written in Smali, which is an assembly language used for the Dalvik bytecode that runs on Android devices. It represents  when the user interacts with Button shows a short toast message saying "HELLO WORLD!"
+
+This snippet of code is from an Android application written in Smali, which is an assembly language used for the Dalvik bytecode that runs on Android devices. It represents  when the user interacts with the Button and shows a short toast message saying "HELLO WORLD!"
+
+ <img src="asset/message_helloWorld.png" height=450 width=550/> 
+
 ### Screen shote 
  
 ## 3- Reverse engineer the code
 
 
 change the toast message to "I GOT IT" in the `MainActivity` to "I GOT IT"
+ <img src="asset/change_message.png" height=450 width=550/> 
 
 
 ## 4- Extracting the Code 
@@ -55,3 +64,6 @@ Run this command to convert .APK to .RAR:
 brew install --cask jd-gui
 
 Open the JAR file in JADX: Once the APK file is converted to a JAR file, you can use JADX to decompile and analyze the Java code. To open the JAR file in JADX, open a terminal or command prompt and navigate to the directory where the JAR file is located. Then, type the following command:
+
+
+ <img src="asset/represent _code.png" height=450 width=550/> 
