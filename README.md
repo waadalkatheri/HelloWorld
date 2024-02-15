@@ -55,6 +55,8 @@ This snippet of code is from an Android application written in Smali, which is a
 
 
 change the toast message to "I GOT IT" in the `MainActivity` to "I GOT IT"
+
+
  <img src="asset/change_message.png" height=450 width=550/> 
 
 
