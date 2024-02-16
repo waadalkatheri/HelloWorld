@@ -40,8 +40,7 @@ Running the following command decompiles the resources and the XML files of the 
 Once the APK file is decompiled, the code can be analyzed to understand how the application works. This may include identifying the different components of the application, such as the activities, services, and receivers, as well as any third-party libraries or APIs used by the application.
 
 The first activity that is called when the application is launched is
-```bash 
-com.dns.helloworld1.MainActivity  ```  with the action `android.intent.action.MAIN` and the category `android.intent.category.LAUNCHER.` This configuration signifies that MainActivity is the entry point of the application.
+``` com.dns.helloworld1.MainActivity  ```  with the action `android.intent.action.MAIN` and the category `android.intent.category.LAUNCHER.` This configuration signifies that MainActivity is the entry point of the application.
 
  <img src="asset/mainfest_file.png" height=450 width=550/> 
 
