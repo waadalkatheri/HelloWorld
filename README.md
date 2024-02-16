@@ -49,8 +49,19 @@ This snippet of code is from an Android application written in Smali, which is a
 
  <img src="asset/message_helloWorld.png" height=450 width=550/> 
 
- 
-## 3- Reverse engineer the code
+
+## 3- Compile the modified APK using APKtool Sign the modified APK.
+
+```bash
+apktool b -f -d /Users/waadalkatheri/HelloWorld
+mv /Users/waadalkatheri/HelloWorld/dist my_HelloWorld.apk
+```
+
+ Sign the modified APK.
+ ```bash
+ keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+ ```
+## 4- Reverse engineer the code
 
 
 change the toast message to "I GOT IT" in the `MainActivity` to "I GOT IT"
@@ -59,7 +70,7 @@ change the toast message to "I GOT IT" in the `MainActivity` to "I GOT IT"
  <img src="asset/change_message.png" height=450 width=550/> 
 
 
-## 4- Extracting the Code 
+## 5- Extracting the Code 
  convert dex files to jar files using the dex2jar tool and  JD-GUI can be used to decompile the standard java .class files, which usually be packaged in a jar file, into the readable source code. 
  
  Download the dex2jar tool :
