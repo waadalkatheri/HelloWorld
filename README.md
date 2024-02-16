@@ -65,7 +65,14 @@ mv /Users/waadalkatheri/HelloWorld/dist my_HelloWorld.apk
  ```bash
  keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
  ```
+
  <img src="asset/sign-apk.png" height=450 width=550/> 
+ 
+ Verify apk
+ ```bash
+ jarsigner -verify -verbose -certs /Users/waadalkatheri/my_HelloWorld/HelloWorld.apk
+```
+ <img src="asset/ver.png" height=450 width=550/> 
 
 ## 4- Reverse engineer the code
 
