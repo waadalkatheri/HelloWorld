@@ -54,7 +54,7 @@ This snippet of code is from an Android application written in Smali, which is a
 ## 3- Reverse engineer the code
 
 
-change the toast message to "I GOT IT" in the `MainActivity` to "I GOT IT"
+change the toast message  "Hello World!" in the `MainActivity` to "I GOT IT"
 
 
  <img src="asset/change_message.png" height=450 width=550/> 
