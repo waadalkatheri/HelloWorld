@@ -56,8 +56,12 @@ This snippet of code is from an Android application written in Smali, which is a
 apktool b -f -d /Users/waadalkatheri/HelloWorld
 mv /Users/waadalkatheri/HelloWorld/dist my_HelloWorld.apk
 ```
+ <img src="asset/terminal-b.png" height=450 width=550/> 
+ <img src="asset/new-apk.png" height=450 width=550/> 
 
  Sign the modified APK.
+
+ 
  ```bash
  keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
  ```
