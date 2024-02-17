@@ -75,8 +75,9 @@ mv /Users/waadalkatheri/HelloWorld/dist my_HelloWorld.apk
  keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
  ```
 
- <img src="asset/sign-apk.png" height=450 width=550/> 
+ 
   <img src="asset/IMG_3133.jpeg" height=450 width=550/> 
+  
  Verify apk
  ```bash
  jarsigner -verify -verbose -certs /Users/waadalkatheri/my_HelloWorld/HelloWorld.apk
