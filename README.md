@@ -76,7 +76,7 @@ mv /Users/waadalkatheri/HelloWorld/dist my_HelloWorld.apk
  ```
 
  <img src="asset/sign-apk.png" height=450 width=550/> 
- 
+  <img src="asset/IMG_3133.jpeg" height=450 width=550/> 
  Verify apk
  ```bash
  jarsigner -verify -verbose -certs /Users/waadalkatheri/my_HelloWorld/HelloWorld.apk
